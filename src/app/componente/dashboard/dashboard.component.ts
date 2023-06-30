@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent {
+text: string;
+
+constructor(){
+  this.text="user";
+}
+cambiarTexto(): void{
+  this.text="Facu";
+}
 
 }
